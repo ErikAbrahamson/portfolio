@@ -4,37 +4,33 @@
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
 
-    $('#about-link').click(function() {
+    $('ea-header').on('click', '#about-link', function(event) {
+      event.preventDefault();
       $('html, body').animate({
-          scrollTop: $('#about').offset().top
-      }, 800);
+          scrollTop: $('#aboutme').offset().top
+      }, 750);
     });
 
-    $('#projects-link').click(function() {
+    $('ea-header').on('click', '#projects-link', function(event) {
+      event.preventDefault();
       $('html, body').animate({
           scrollTop: $('#project').offset().top
       }, 750);
     });
 
-    $('#resume-link').click(function() {
+    $('ea-header').on('click', '#resume-link', function(event) {
+      event.preventDefault();
       $('html, body').animate({
           scrollTop: $('#resume').offset().top
-      }, 500);
+      }, 750);
     });
 
-    $('#contact-link').click(function() {
+    $('ea-header').on('click', '#contact-link', function(event) {
+      event.preventDefault();
       $('html, body').animate({
           scrollTop: $('#contact').offset().top
-      }, 500);
+      }, 750);
     });
 
-    // var options = [{
-    //   selector: '#project',
-    //   offset: 500,
-    //   callback: 'Materialize.fadeInImage("#project")'
-    // }];
-    //
-    // Materialize.scrollFire(options);
-
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+  });
+})(jQuery);

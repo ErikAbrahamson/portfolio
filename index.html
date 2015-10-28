@@ -1,44 +1,18 @@
 <!DOCTYPE html>
- <html ng-app="myApp">
-
-   <head>
-     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-   </head>
-
-   <body>
+  <html ng-app="myApp">
+    <head>
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="utf-8">
+      <meta title="Erik Abrahamson">
+      <meta name="description" content="Erik Abrahamson, Software Developer in Javascript">
+      <meta name="author" content="Erik Abrahamson">
+    </head>
+    <body>
      <!-- header -->
-     <div class="navbar-fixed">
-       <nav class="teal darken-1 z-depth-0">
-         <div class="nav-wrapper">
-           <a href="#!" class="brand-logo">&nbsp</a>
-            <ul class="right hide-on-med-and-down">
-              <li><a id="about-link" href="#">About Me</a></li>
-              <li><a id="projects-link" href="#project">Projects</a></li>
-              <li><a id="resume-link" href="#">Resume</a></li>
-              <li><a id="contact-link" href="#">Contact</a></li>
-            </ul>
-            <ul id="nav-mobile" class="side-nav">
-              <li><a href="#">About Me</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Resume</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
-      </nav>
-    </div>
-    <div class="section teal darken-1">
-      <div class="row container">
-        <div class="col s12">
-          <h5 class="thin white-text valign center-align">Hi, I'm</h5>
-          <h2 class="light title white-text center-align header">ERIK ABRAHAMSON</h2>
-          <h5 class="thin white-text valign center-align">and I
-           <strong>design</strong> and <strong>code</strong></h5><br><br>
-       </div>
-     </div>
-   </div>
+
+     <ea-header></ea-header>
 
      <div class="parallax-container">
        <div class="parallax"><img src="images/background/background4.jpg"></div>
@@ -175,7 +149,9 @@
          </div>
        </div>
      </footer>
-     <!--Import jQuery before materialize.js-->
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+     <script src="js/angular.js"></script>
+     <script src="js/directives/header.js"></script>
      <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
      <script type="text/javascript" src="js/init.js"></script>
      <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
