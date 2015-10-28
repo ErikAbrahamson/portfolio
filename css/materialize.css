@@ -5409,10 +5409,10 @@ nav {
 
 @media only screen and (min-width: 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 75px;
-    line-height: 75px; }
+    height: 65px;
+    line-height: 65px; }
   .navbar-fixed {
-    height: 75px; } }
+    height: 65px; } }
 
 @font-face {
   font-family: "Roboto";
@@ -5508,6 +5508,9 @@ small {
 
 .thin {
   font-weight: 200; }
+
+.title {
+  font-weight: 400; }
 
 .flow-text {
   font-weight: 300; }
