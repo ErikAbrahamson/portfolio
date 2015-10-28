@@ -24,8 +24,8 @@
 
     $('#contact-link').click(function() {
       $('html, body').animate({
-          scrollTop: $('.page-footer').offset().top
-      }, 300);
+          scrollTop: $('#contact').offset().top
+      }, 500);
     });
 
     // var options = [{
