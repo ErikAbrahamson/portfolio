@@ -2,6 +2,7 @@
   <html ng-app="myApp">
     <head>
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/font-awesome.css">
       <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <meta charset="utf-8">
@@ -9,151 +10,51 @@
       <meta name="description" content="Erik Abrahamson, Software Developer in Javascript">
       <meta name="author" content="Erik Abrahamson">
     </head>
-    <body>
-     <!-- header -->
+    <body ng-controller="assetsController">
 
-     <ea-header></ea-header>
+      <ea-header></ea-header>
+
+      <div class="parallax-container">
+        <div parallax><img src="images/background/background4.jpg"></div>
+      </div>
+
+      <ea-container>
+        <content-about />
+      </ea-container>
 
      <div class="parallax-container">
-       <div class="parallax"><img src="images/background/background4.jpg"></div>
+       <div parallax><img src="images/background/background5.jpg"></div>
      </div>
 
-     <div class="section teal darken-1">
-       <div class="row container">
+     <ea-container>
+       <content-stack />
+     </ea-container>
 
-         <div class="row">
-           <h2 class="white-text center-align header">Current Stack</h2>
-            <div class="col s3">
-              <div class="center promo promo-example">
-                <img class="responsive-img" src="images/thumbs/mongo.png">
-                <p class="promo-caption">Speeds up development</p>
-                <p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
-              </div>
-            </div>
-            <div class="col s3">
-              <div class="center promo promo-example">
-                <img class="responsive-img" src="images/thumbs/express.png">
-                <p class="promo-caption">User Experience Focused</p>
-                <p class="light center">By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
-              </div>
-            </div>
-            <div class="col s3">
-              <div class="center promo promo-example">
-                <img class="responsive-img" src="images/thumbs/angular.png">
-                <p class="promo-caption">Easy to work with</p>
-                <p class="light center">We have provided detailed documentation as well as specific code examples to help new users get started.</p>
-              </div>
-            </div>
-            <div class="col s3">
-              <div class="center promo promo-example">
-                <img class="responsive-img" src="images/thumbs/node.png">
-                <p class="promo-caption">Easy to work with</p>
-                <p class="light center">We have provided detailed documentation as well as specific code examples to help new users get started.</p>
-              </div>
-            </div>
-        </div>
-
-         <!-- project cards -->
-       <div class="row" id="project">
-         <h2 class="white-text header">Galvanize - gSchool</h2>
-         <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
-
-         <div class="col s4 m4">
-           <div class="card">
-             <div class="card-image waves-effect waves-block waves-light">
-               <img class="activator" src="images/thumbs/wtt.jpg">
-             </div>
-             <div class="card-content">
-               <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-               <p>Here is some more information about this product that is only revealed once clicked on.</p>
-             </div>
-             <div class="card-reveal">
-               <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-               <p>Here is some more information about this product that is only revealed once clicked on.</p>
-               <div class="card-action">
-                 <a href="#">This is a link</a>
-               </div>
-             </div>
-           </div>
-         </div>
-
-
-         <div class="col s4 m4">
-           <div class="card">
-             <div class="card-image">
-               <img src="images/thumbs/translate.jpg">
-               <span class="card-title">Card Title</span>
-             </div>
-             <div class="card-content">
-               <p>I am a very simple card. I am good at containing small bits of information.
-               I am convenient because I require little markup to use effectively.</p>
-             </div>
-             <div class="card-action">
-               <a href="#">This is a link</a>
-             </div>
-           </div>
-         </div>
-
-
-         <div class="col s4 m4">
-           <div class="card">
-             <div class="card-image">
-               <img src="images/thumbs/mtg.jpg">
-               <span class="card-title">Card Title</span>
-             </div>
-             <div class="card-content">
-               <p>I am a very simple card. I am good at containing small bits of information.
-               I am convenient because I require little markup to use effectively.</p>
-             </div>
-             <div class="card-action">
-               <a href="#">This is a link</a>
-             </div>
-           </div>
-         </div>
-
-       </div>
-
-       </div>
-     </div>
      <div class="parallax-container">
-       <div class="parallax"><img src="images/background/background5.jpg"></div>
+       <div parallax><img src="images/background/background3.jpg"></div>
      </div>
 
-     <footer id="contact" class="page-footer teal">
+     <ea-container>
+       <content-projects />
+     </ea-container>
 
-       <div class="container">
-         <div class="row">
-          <form class="col s12">
-            <div class="row">
-              <div class="input-field col s6">
-                <i class="material-icons prefix">account_circle</i>
-                <input id="icon_prefix" type="text" class="validate">
-                <label for="icon_prefix">First Name</label>
-              </div>
-              <div class="input-field col s6">
-                <i class="material-icons prefix">email</i>
-                <input id="icon_email" type="tel" class="validate">
-                <label for="icon_email">Email</label>
-              </div>
-            </div>
-            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-  <i class="material-icons right">send</i>
-</button>
-          </form>
-        </div>
+     <div class="parallax-container">
+       <div parallax><img src="images/background/background4.jpg"></div>
+     </div>
 
-       </div>
-       <div class="footer-copyright">
-         <div class="container">
-         Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-         </div>
-       </div>
-     </footer>
-     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-     <script src="js/angular.js"></script>
-     <script src="js/directives/header.js"></script>
+     <ea-footer></ea-footer>
+
      <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-     <script type="text/javascript" src="js/init.js"></script>
      <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
+     <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+     <script type="text/javascript" src="js/init.js"></script>
+     <script type="text/javascript" src="js/angular-materialize.js"></script>
+     <script type="text/javascript" src="js/angular.js"></script>
+     <script type="text/javascript" src="js/directives/header.js"></script>
+     <script type="text/javascript" src="js/directives/container.js"></script>
+     <script type="text/javascript" src="js/directives/stack.js"></script>
+     <script type="text/javascript" src="js/directives/about.js"></script>
+     <script type="text/javascript" src="js/directives/projects.js"></script>
+     <script type="text/javascript" src="js/directives/footer.js"></script>
    </body>
  </html>

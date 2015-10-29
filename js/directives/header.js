@@ -7,9 +7,7 @@
       replace: false,
       transclude: false,
       templateUrl: '../partials/header.html',
-      scope: {
-        data: '='
-      }
+      scope: false
     };
   });
 
