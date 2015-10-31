@@ -1,4 +1,4 @@
-var app = angular.module('myApp', ['ui.materialize'])
+var app = angular.module('portfolioApp', ['ui.materialize'])
 
   .controller('assetsController', ['$scope', function($scope) {
 

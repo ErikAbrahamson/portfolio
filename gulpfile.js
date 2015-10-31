@@ -28,15 +28,15 @@ gulp.task('sass', function () {
 });
 
 gulp.task('sass', function () {
-  gulp.src('./bower_components/font-awesome/scss/*.scss')
+  gulp.src('./bower_components/Materialize/sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./css'))
     .pipe(connect.reload());
 });
 
-// gulp.task('sass:watch', function () {
-//   gulp.watch('./bower_components/Materialize/sass/**/*.scss', ['sass']);
-// });
+gulp.task('sass:watch', function () {
+  gulp.watch('./bower_components/Materialize/sass/**/*.scss', ['sass']);
+});
 
 // configure jshint task
 gulp.task('jshint', function() {
