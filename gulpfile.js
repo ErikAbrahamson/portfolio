@@ -34,10 +34,6 @@ gulp.task('sass', function () {
     .pipe(connect.reload());
 });
 
-gulp.task('sass:watch', function () {
-  gulp.watch('./bower_components/Materialize/sass/**/*.scss', ['sass']);
-});
-
 // configure jshint task
 gulp.task('jshint', function() {
   return gulp.src('js/*.js')

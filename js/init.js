@@ -7,28 +7,28 @@
     $('ea-header').on('click', '#about-link', function(event) {
       event.preventDefault();
       $('html, body').animate({
-          scrollTop: $('#aboutme').offset().top
+          scrollTop: $('#aboutme').offset().top - 70
       }, 750);
     });
 
     $('ea-header').on('click', '#projects-link', function(event) {
       event.preventDefault();
       $('html, body').animate({
-          scrollTop: $('#project').offset().top
+          scrollTop: $('#project').offset().top - 70
       }, 750);
     });
 
     $('ea-header').on('click', '#resume-link', function(event) {
       event.preventDefault();
       $('html, body').animate({
-          scrollTop: $('#resume').offset().top
+          scrollTop: $('#resume').offset().top - 70
       }, 750);
     });
 
     $('ea-header').on('click', '#contact-link', function(event) {
       event.preventDefault();
       $('html, body').animate({
-          scrollTop: $('#contact').offset().top
+          scrollTop: $('#contact').offset().top - 70
       }, 750);
     });
 
