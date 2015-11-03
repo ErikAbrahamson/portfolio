@@ -1,0 +1,103 @@
+{
+  "basics": {
+    "name": "Erik Abrahamson",
+    "label": "Developer",
+    "picture": "https://avatars3.githubusercontent.com/u/9325932?v=3&s=460",
+    "email": "e.a.abrahamson@gmail.com",
+    "phone": "(914) 438-5692",
+    "website": "http://existo.us",
+    "summary": "A creative and curious indivudal who loves tinkering with code and digital recipes",
+    "location": {
+      "address": "1950 Logan Street",
+      "postalCode": "CO 80203",
+      "city": "Denver",
+      "countryCode": "US",
+      "region": "Colorado"
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "erik_abrahamson",
+      "url": "http://twitter.com/erik_abrahamson"
+    },
+    {
+      "network": "Github",
+      "username": "ErikAbrahamson",
+      "url": "https://github.com/ErikAbrahamson"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "ErikAbrahamson",
+      "url": "https://www.linkedin.com/in/erikabrahamson"
+    }]
+  },
+  "work": [{
+    "company": "Galvanize",
+    "position": "student, gShool Full Stack",
+    "website": "http://www.galvanize.com/",
+    "startDate": "2015-06-01",
+    "endDate": "2015-12-15",
+    "summary": "Become JavaScript ninja and full stack devleoper",
+    "highlights": [
+      "Started the company"
+    ]
+  }],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "website": "http://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description...",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "University",
+    "area": "Software Development",
+    "studyType": "Bachelor",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "gpa": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "website": "http://publication.com",
+    "summary": "Description..."
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference..."
+  }]
+}
