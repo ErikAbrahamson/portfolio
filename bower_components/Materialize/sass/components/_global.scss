@@ -66,6 +66,10 @@ ul {
 .noise-red {
   background-image: url(../images/textures/noise-red.png);
 }
+.emboss {
+  text-shadow: 0 -4px 4px #e53935, 0 4px 4px #e53935;
+  color: #e53935;
+}
 
 // classic clearfix
 .clearfix {

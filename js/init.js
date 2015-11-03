@@ -4,6 +4,13 @@
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
 
+    $('ea-header').on('click', '#stack-link', function(event) {
+      event.preventDefault();
+      $('html, body').animate({
+          scrollTop: $('#stack').offset().top - 70
+      }, 1200);
+    });
+
     $('ea-header').on('click', '#about-link', function(event) {
       event.preventDefault();
       $('html, body').animate({
