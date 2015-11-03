@@ -2028,6 +2028,16 @@ ul {
   ul li {
     list-style-type: none; }
 
+.social-banner {
+  position: fixed;
+  top: 100px;
+  right: 0;
+  z-index: 2; }
+
+.social-banner a {
+  font-size: 42px;
+  display: block; }
+
 .accent-title {
   -webkit-text-stroke: 1px #455a64;
   color: white;
@@ -5762,7 +5772,7 @@ small {
   display: -webkit-flex;
   display: flex;
   position: relative;
-  height: 48px;
+  height: 64px;
   background-color: #fff;
   margin: 0 auto;
   width: 100%;
@@ -5775,8 +5785,8 @@ small {
     display: block;
     float: left;
     text-align: center;
-    line-height: 48px;
-    height: 48px;
+    line-height: 64px;
+    height: 64px;
     padding: 0 20px;
     margin: 0;
     text-transform: uppercase;
