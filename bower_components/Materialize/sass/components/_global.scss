@@ -50,21 +50,21 @@ ul {
 
 // Custom helpers
 .accent-title {
-  @extend .red-text, .text-darken-1;
-   -webkit-text-stroke: 1px #b71c1c;
+  @extend .blue-grey-text, .text-darken-3;
+   -webkit-text-stroke: 1px #455a64;
    color: white;
    text-shadow:
-       5px 5px 0 #b71c1c,
-     -1px -1px 0 #b71c1c,
-      1px -1px 0 #b71c1c,
-      -1px 1px 0 #b71c1c,
-       1px 1px 0 #b71c1c;
+       5px 5px 0 #455a64,
+     -1px -1px 0 #455a64,
+      1px -1px 0 #455a64,
+      -1px 1px 0 #455a64,
+       1px 1px 0 #455a64;
 }
 .social-lg {
   font-size: 96px;
 }
 .noise-red {
-  background-image: url(../images/textures/noise-red.png);
+  background-image: url(../images/textures/noise-blue.png);
 }
 .emboss {
   text-shadow: 0 -4px 4px #e53935, 0 4px 4px #e53935;
