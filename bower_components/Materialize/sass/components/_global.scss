@@ -47,7 +47,8 @@ ul {
     list-style-type: none;
   }
 }
-// custom
+
+// Custom helpers
 .accent-title {
   @extend .red-text, .text-darken-1;
    -webkit-text-stroke: 1px #b71c1c;
@@ -61,6 +62,9 @@ ul {
 }
 .social-lg {
   font-size: 96px;
+}
+.noise-red {
+  background-image: url(../images/textures/noise-red.png);
 }
 
 // classic clearfix

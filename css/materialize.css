@@ -2036,6 +2036,9 @@ ul {
 .social-lg {
   font-size: 96px; }
 
+.noise-red {
+  background-image: url(../images/textures/noise-red.png); }
+
 .clearfix {
   clear: both; }
 
