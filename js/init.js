@@ -44,5 +44,13 @@
       }, 750);
     });
 
+    $('#reset').on('click', function(event) {
+      event.preventDefault();
+      console.log('Clicked!');
+      $('#icon_prefix').val('');
+      $('#icon_email').val('');
+      $('#icon_prefix2').val('');
+    });
+
   });
 })(jQuery);
