@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Erik Abrahamson",
-    "label": "Developer",
+    "label": "Software Developer",
     "picture": "https://avatars3.githubusercontent.com/u/9325932?v=3&s=460",
     "email": "e.a.abrahamson@gmail.com",
     "phone": "(914) 438-5692",
@@ -30,71 +30,84 @@
       "url": "https://www.linkedin.com/in/erikabrahamson"
     }]
   },
+    "skills": [{
+    "name": "Web Development",
+    "level": "Experienced",
+    "keywords": [{
+      "back-end": [
+        "JavScript",
+        "MongoDB",
+        "NoSQL",
+        "PostGreSQL",
+        "Node.js",
+        "Express",
+        "Passport"
+      ],
+      "front-end": [
+        "JavScript",
+        "CSS3",
+        "AngularJS",
+        "jQuery",
+        "Material",
+        "Sass",
+        "Bootstrap"
+        ],
+      "utility": [
+        "Travis CI",
+        "Bower",
+        "Gulp",
+        "Jasmine",
+        "Mocha && Chai"
+        ]
+      }]
+    }],
   "work": [{
     "company": "Galvanize",
-    "position": "student, gShool Full Stack",
+    "position": "Student, gShool Full Stack",
     "website": "http://www.galvanize.com/",
     "startDate": "2015-06-01",
     "endDate": "2015-12-15",
     "summary": "Become JavaScript ninja and full stack devleoper",
     "highlights": [
-      "Started the company"
+      "Learn programming fundamentals and the MEAN stack"
     ]
   }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
+  "work": [{
+    "company": "PlaceWise Media",
+    "position": "Account Coordinator",
+    "website": "http://placewise.com/",
+    "startDate": "2014-05-01",
+    "endDate": "2015-4-28",
+    "summary": "Operations for digital media firm",
     "highlights": [
-      "Awarded 'Volunteer of the Month'"
+      "Worked within creative, operations, marketing, and development teams in an Agile project management setting to administer product life cycle",
+      "Managed over fifty portfolio websites overseeing development tasks and various marketing initiatives",
+      "Directed training webinars for proprietary CMS for clients and fulfilled client requests on a daily basis",
+      "Developed and styled numerous websites with mobile-first, responsive designs",
+      "Created monthly corporate roll-up analytic reports containing trends in comprehensive Google Analytics, social media, and email user database metrics"
+    ]
+  }],
+  "work": [{
+  "company": "WorldLabel",
+  "position": "Graphic Designer/Marketing Strategist",
+  "website": " http://www.worldlabel.com/",
+  "startDate": "2014-01-01",
+  "endDate": "2014-4-28",
+  "summary": "Design assets for label printing company",
+  "highlights": [
+    "Digital content management for World Label division; LabelsOnTime.com",
+    "Created and managed images for individual product pages to strengthen search engine optimization and UX design",
+    "Edited and co-wrote press release, info, and technical specification page for website launch",
+    "Created and maintained Google Merchant & AdWords data feed for website"
     ]
   }],
   "education": [{
-    "institution": "University",
-    "area": "Software Development",
+    "institution": "Ithaca College",
+    "area": "Philosophy",
     "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "gpa": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "website": "http://publication.com",
-    "summary": "Description..."
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript"
-    ]
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
+    "startDate": "2008-08-28",
+    "endDate": "2012-05-10",
+    "gpa": "3.82"
   }],
   "references": [{
     "name": "Jane Doe",
