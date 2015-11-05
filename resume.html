@@ -1,0 +1,585 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Erik Abrahamson</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Erik Abrahamson
+					</h1>
+					<h2>
+						Software Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="cda8e3ace3acafbfaca5aca0bea2a38daaa0aca4a1e3aea2a0">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">(914) 438-5692</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://existo.us">http://existo.us</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>I&#x27;ve been casually writing code for quite sometime. I recently enrolled a Full Stack immersive program at Galvanize to jumpstart my career and expertise in the world of software development. I&#x27;m a problem solver at heart; coming from a background in philosophy and clinical psychology. I am a technological optimist and believe that the web serves as a paramount tool for economic and social advancement.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://twitter.com/erik_abrahamson">erik_abrahamson</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/ErikAbrahamson">ErikAbrahamson</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/erikabrahamson">ErikAbrahamson</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Galvanize</span>
+					<span class="date">
+						2015-06-01 — 2015-12-15
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.galvanize.com/">http://www.galvanize.com/</a>
+				</div>
+				<div class="position">
+					Student, gShool Full Stack
+				</div>
+				<div class="summary">
+					<p>Become JavaScript ninja and full stack devleoper</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Learn programming fundamentals and the MEAN stack</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>PlaceWise Media</span>
+					<span class="date">
+						2014-05-01 — 2015-04-28
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://placewise.com/">http://placewise.com/</a>
+				</div>
+				<div class="position">
+					Account Coordinator
+				</div>
+				<div class="summary">
+					<p>Operations for digital media firm</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Worked within creative, operations, marketing, and development teams in an Agile project management setting to administer product life cycle</li>
+					<li class="bullet">Managed over fifty portfolio websites overseeing development tasks and various marketing initiatives</li>
+					<li class="bullet">Directed training webinars for proprietary CMS for clients and fulfilled client requests on a daily basis</li>
+					<li class="bullet">Developed and styled numerous websites with mobile-first, responsive designs</li>
+					<li class="bullet">Created monthly corporate roll-up analytic reports containing trends in comprehensive Google Analytics, social media, and email user database metrics</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>WorldLabel</span>
+					<span class="date">
+						2014-01-01 — 2014-04-28
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=" http://www.worldlabel.com/"> http://www.worldlabel.com/</a>
+				</div>
+				<div class="position">
+					Graphic Designer/Marketing Strategist
+				</div>
+				<div class="summary">
+					<p>Design assets for label printing company</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Digital content management for World Label division; LabelsOnTime.com</li>
+					<li class="bullet">Created and managed images for individual product pages to strengthen search engine optimization and UX design</li>
+					<li class="bullet">Edited and co-wrote press release, info, and technical specification page for website launch</li>
+					<li class="bullet">Created and maintained Google Merchant &amp; AdWords data feed for website</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Grand Street Psychology</span>
+					<span class="date">
+						2010-01-01 — 2014-03-28
+					</span>
+				</h4>
+				<div class="position">
+					Clinical Group Assistant Therapist
+				</div>
+				<div class="summary">
+					<p>Full time assistant therapist for group therapy</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Assistant for ten individual group therapy sessions that specialize in adolescent and post-adolescent males</li>
+					<li class="bullet">Worked with variety of patients who are predominantly, but not limited to the autistic spectrum</li>
+					<li class="bullet">Responsible for leading discussions and exercises, and creating springboard discussion topics</li>
+					<li class="bullet">Promoted patient psychological well-being by employing play, talk, discussion, introspective, and behavioral therapies</li>
+					<li class="bullet">Assisted organizing annual workshops for audiences over seventy people, including Q&amp;A and discussion with audience</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>360W3 Westchester Web Design</span>
+					<span class="date">
+						2012-06-01 — 2012-12-28
+					</span>
+				</h4>
+				<div class="position">
+					Project Consultant
+				</div>
+				<div class="summary">
+					<p>Project consulting and management</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Assisted in strategy and proposal development for small businesses seeking online marketing</li>
+					<li class="bullet">Liaison between creative team and clients</li>
+					<li class="bullet">Specialized in website design and development, search engine optimization, social media marketing, and brand development</li>
+					<li class="bullet">Employed tools such as Google Analytics, Wordpress, Facebook, Twitter, Salesforce, Microsoft Office, and the Adobe Creative Suite</li>
+					<li class="bullet">Assisted in wireframe development for proposed websites</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Westchester Industrial Complex</span>
+					<span class="date">
+						2011-06-01 — 2011-09-28
+					</span>
+				</h4>
+				<div class="position">
+					Information Analyst and Web Developer
+				</div>
+				<div class="summary">
+					<p>Freelance IT consulting and wordpress development</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Online database management for industrial complex properties for rent</li>
+					<li class="bullet">Assisted with various Windows-based software and hardware related tasks, as well as some marketing and advertising tasks</li>
+					<li class="bullet">Developed and created website and content using Wordpress for new business venture</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Rustic Pathways</span>
+					<span class="date">
+						2007-06-14 — 2007-06-22
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://rusticpathways.com/">http://rusticpathways.com/</a>
+				</div>
+				<div class="position">
+					Volunteer
+				</div>
+				<div class="summary">
+					<p>Aided in community development in various areas in Costa Rica, primarily doing manual labour jobs to improve school structures</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Soaring Society of America</span>
+					<span class="date">
+						2005-06-01 — 2012-07-21
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.ssa.org/">http://www.ssa.org/</a>
+				</div>
+				<div class="position">
+					Student Pilot and Volunteer
+				</div>
+				<div class="summary">
+					<p>Certified as Solo Student Pilot</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Received SSA &#x27;C&#x27; Badge</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Ithaca College</span>
+					<span class="date">
+						2008-08-28 — 2012-05-10
+					</span>
+				</h4>
+				<div class="area">
+					Philosophy
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Galvanize, gSchool</span>
+					<span class="date">
+						2015-06-01 — 2015-12-15
+					</span>
+				</h4>
+				<div class="area">
+					Software Engineering
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Front End &amp; Design</h4>
+				</div>
+				<ul class="keywords">
+					<li>JavaScript</li>
+					<li>CSS3</li>
+					<li>AngularJS</li>
+					<li>jQuery</li>
+					<li>Material</li>
+					<li>Sass</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Back End &amp; Utils</h4>
+				</div>
+				<ul class="keywords">
+					<li>JavaScript</li>
+					<li>MongoDB</li>
+					<li>NoSQL</li>
+					<li>PostGreSQL</li>
+					<li>Node.js</li>
+					<li>Express</li>
+					<li>Passport</li>
+					<li>Travis CI</li>
+					<li>Bower</li>
+					<li>Gulp</li>
+					<li>Jasmine</li>
+					<li>Mocha &amp;&amp; Chai</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>I managed Erik directly and found him to be a motivated employee and effective communicator. Erik brought an overall positive attitude each day and was at his best when given a problem to solve. I enjoyed working with Erik and believe he will make a positive contribution to the next team he joins.</p>
+					<p class="name">
+						<strong>— Janir Thorndike</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>Erik was employed at PlaceWise Media as an Account Coordinator. He has been an excellent addition to our staff, often times wearing many hats on the account team and development team. During his time here he has shown himself to be a diligent worker and always willing to give his best efforts at all assignments given to him. He learns new tasks quickly with minimal instruction. I have no doubt that Erik will quickly pick up whatever skills will be required in his next job, as he has with this one, and that he will be a great asset to his next employer. His pleasant personality will be missed.</p>
+					<p class="name">
+						<strong>— Aaron Lovato</strong>
+					</p>
+				</blockquote>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+	
+	</body>
+</html>

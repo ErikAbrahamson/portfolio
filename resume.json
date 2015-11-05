@@ -2,11 +2,11 @@
   "basics": {
     "name": "Erik Abrahamson",
     "label": "Software Developer",
-    "picture": "https://avatars3.githubusercontent.com/u/9325932?v=3&s=460",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAKhAAAAJGFkZmMzNjk3LWE4ZGUtNDRjMi05ZmU1LTc5ZWRhNmYyZmNmYg.jpg",
     "email": "e.a.abrahamson@gmail.com",
     "phone": "(914) 438-5692",
     "website": "http://existo.us",
-    "summary": "A creative and curious indivudal who loves tinkering with code and digital recipes",
+    "summary": "I've been casually writing code for quite sometime. I recently enrolled a Full Stack immersive program at Galvanize to jumpstart my career and expertise in the world of software development. I'm a problem solver at heart; coming from a background in philosophy and clinical psychology. I am a technological optimist and believe that the web serves as a paramount tool for economic and social advancement.",
     "location": {
       "address": "1950 Logan Street",
       "postalCode": "CO 80203",
@@ -15,6 +15,7 @@
       "region": "Colorado"
     },
     "profiles": [{
+
       "network": "Twitter",
       "username": "erik_abrahamson",
       "url": "http://twitter.com/erik_abrahamson"
@@ -31,36 +32,34 @@
     }]
   },
     "skills": [{
-    "name": "Web Development",
-    "level": "Experienced",
-    "keywords": [{
-      "back-end": [
-        "JavScript",
+      "name": "Front End & Design",
+      "level": "Experienced",
+      "keywords": [
+        "JavaScript",
+        "CSS3",
+        "AngularJS",
+        "jQuery",
+        "Material",
+        "Sass"
+    ]},
+    {
+      "name": "Back End & Utils",
+      "level": "Experienced",
+      "keywords": [
+        "JavaScript",
         "MongoDB",
         "NoSQL",
         "PostGreSQL",
         "Node.js",
         "Express",
-        "Passport"
-      ],
-      "front-end": [
-        "JavScript",
-        "CSS3",
-        "AngularJS",
-        "jQuery",
-        "Material",
-        "Sass",
-        "Bootstrap"
-        ],
-      "utility": [
+        "Passport",
         "Travis CI",
         "Bower",
         "Gulp",
         "Jasmine",
         "Mocha && Chai"
-        ]
-      }]
-    }],
+      ]}
+  ],
   "work": [{
     "company": "Galvanize",
     "position": "Student, gShool Full Stack",
@@ -69,15 +68,18 @@
     "endDate": "2015-12-15",
     "summary": "Become JavaScript ninja and full stack devleoper",
     "highlights": [
-      "Learn programming fundamentals and the MEAN stack"
+      "Gain hands-on experience working with and building applications with RESTful APIs using the MEAN stack",
+      "Core focus on JavaScript, AngularJS and Node.js",
+      "Build comprehensive understanding of Object-Oriented Programming, Test-Driven Development, and Behavior-Driven Development",
+      "Design, develop and test numerous projects, both self-directed and team-directed"
     ]
-  }],
-  "work": [{
+    },
+    {
     "company": "PlaceWise Media",
     "position": "Account Coordinator",
     "website": "http://placewise.com/",
     "startDate": "2014-05-01",
-    "endDate": "2015-4-28",
+    "endDate": "2015-04-28",
     "summary": "Operations for digital media firm",
     "highlights": [
       "Worked within creative, operations, marketing, and development teams in an Agile project management setting to administer product life cycle",
@@ -86,19 +88,78 @@
       "Developed and styled numerous websites with mobile-first, responsive designs",
       "Created monthly corporate roll-up analytic reports containing trends in comprehensive Google Analytics, social media, and email user database metrics"
     ]
+  },
+  {
+    "company": "WorldLabel",
+    "position": "Graphic Designer/Marketing Strategist",
+    "website": " http://www.worldlabel.com/",
+    "startDate": "2014-01-01",
+    "endDate": "2014-04-28",
+    "summary": "Design assets for label printing company",
+    "highlights": [
+      "Digital content management for World Label division; LabelsOnTime.com",
+      "Created and managed images for individual product pages to strengthen search engine optimization and UX design",
+      "Edited and co-wrote press release, info, and technical specification page for website launch",
+      "Created and maintained Google Merchant & AdWords data feed for website"
+    ]
+  },
+  {
+    "company": "Grand Street Psychology",
+    "position": "Clinical Group Assistant Therapist",
+    "startDate": "2010-01-01",
+    "endDate": "2014-03-28",
+    "summary": "Full time assistant therapist for group therapy",
+    "highlights": [
+      "Assistant for ten individual group therapy sessions that specialize in adolescent and post-adolescent males",
+      "Worked with variety of patients who are predominantly, but not limited to the autistic spectrum",
+      "Responsible for leading discussions and exercises, and creating springboard discussion topics",
+      "Promoted patient psychological well-being by employing play, talk, discussion, introspective, and behavioral therapies",
+      "Assisted organizing annual workshops for audiences over seventy people, including Q&A and discussion with audience"
+    ]
+  },
+  {
+    "company": "360W3 Westchester Web Design",
+    "position": "Project Consultant",
+    "startDate": "2012-06-01",
+    "endDate": "2012-12-28",
+    "summary": "Project consulting and management",
+    "highlights": [
+      "Assisted in strategy and proposal development for small businesses seeking online marketing",
+      "Liaison between creative team and clients",
+      "Specialized in website design and development, search engine optimization, social media marketing, and brand development",
+      "Employed tools such as Google Analytics, Wordpress, Facebook, Twitter, Salesforce, Microsoft Office, and the Adobe Creative Suite",
+      "Assisted in wireframe development for proposed websites"
+    ]
+  },
+  {
+    "company": "Westchester Industrial Complex",
+    "position": "Information Analyst and Web Developer",
+    "startDate": "2011-06-01",
+    "endDate": "2011-09-28",
+    "summary": "Freelance IT consulting and wordpress development",
+    "highlights": [
+      "Online database management for industrial complex properties for rent",
+      "Assisted with various Windows-based software and hardware related tasks, as well as some marketing and advertising tasks",
+      "Developed and created website and content using Wordpress for new business venture"
+    ]
   }],
-  "work": [{
-  "company": "WorldLabel",
-  "position": "Graphic Designer/Marketing Strategist",
-  "website": " http://www.worldlabel.com/",
-  "startDate": "2014-01-01",
-  "endDate": "2014-4-28",
-  "summary": "Design assets for label printing company",
-  "highlights": [
-    "Digital content management for World Label division; LabelsOnTime.com",
-    "Created and managed images for individual product pages to strengthen search engine optimization and UX design",
-    "Edited and co-wrote press release, info, and technical specification page for website launch",
-    "Created and maintained Google Merchant & AdWords data feed for website"
+  "volunteer": [{
+    "organization": "Rustic Pathways",
+    "position": "Volunteer",
+    "website": "http://rusticpathways.com/",
+    "startDate": "2007-06-14",
+    "endDate": "2007-06-22",
+    "summary": "Aided in community development in various areas in Costa Rica, primarily doing manual labour jobs to improve school structures"
+  },
+  {
+    "organization": "Soaring Society of America",
+    "position": "Student Pilot and Volunteer",
+    "website": "http://www.ssa.org/",
+    "startDate": "2005-06-01",
+    "endDate": "2012-07-21",
+    "summary": "Certified as Solo Student Pilot",
+    "highlights": [
+      "Received SSA 'C' Badge"
     ]
   }],
   "education": [{
@@ -108,9 +169,19 @@
     "startDate": "2008-08-28",
     "endDate": "2012-05-10",
     "gpa": "3.82"
+  },
+  {
+    "institution": "Galvanize, gSchool",
+    "area": "Software Engineering",
+    "startDate": "2015-06-01",
+    "endDate": "2015-12-15"
   }],
   "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference..."
+    "name": "Janir Thorndike",
+    "reference": "I managed Erik directly and found him to be a motivated employee and effective communicator. Erik brought an overall positive attitude each day and was at his best when given a problem to solve. I enjoyed working with Erik and believe he will make a positive contribution to the next team he joins."
+    },
+    {
+    "name": "Aaron Lovato",
+    "reference": "Erik was employed at PlaceWise Media as an Account Coordinator. He has been an excellent addition to our staff, often times wearing many hats on the account team and development team. During his time here he has shown himself to be a diligent worker and always willing to give his best efforts at all assignments given to him. He learns new tasks quickly with minimal instruction. I have no doubt that Erik will quickly pick up whatever skills will be required in his next job, as he has with this one, and that he will be a great asset to his next employer. His pleasant personality will be missed."
   }]
 }
