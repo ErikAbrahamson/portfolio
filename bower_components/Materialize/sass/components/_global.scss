@@ -51,7 +51,7 @@ ul {
 // Custom helpers
 .social-banner {
   position: fixed;
-  top: 100px;
+  top: 75px;
   right: 20px;
   z-index: 2
 }
@@ -275,6 +275,21 @@ ul.staggered-list li {
 .hide-on-small-only, .hide-on-small-and-down {
   @media #{$small-and-down} {
     display: none !important;
+  }
+}
+.nav-reduce {
+  @media #{$small-and-down} {
+    font-size: 12px !important;
+  }
+}
+.h5-reduce {
+  @media #{$small-and-down} {
+    font-size: 20px !important;
+  }
+}
+.title-reduce {
+  @media #{$small-and-down} {
+    font-size: 48px !important;
   }
 }
 .hide-on-med-and-down {

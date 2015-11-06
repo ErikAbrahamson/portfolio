@@ -2030,7 +2030,7 @@ ul {
 
 .social-banner {
   position: fixed;
-  top: 100px;
+  top: 75px;
   right: 20px;
   z-index: 2; }
 
@@ -2192,6 +2192,18 @@ ul.staggered-list li {
 @media only screen and (max-width: 600px) {
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important; } }
+
+@media only screen and (max-width: 600px) {
+  .nav-reduce {
+    font-size: 12px !important; } }
+
+@media only screen and (max-width: 600px) {
+  .h5-reduce {
+    font-size: 20px !important; } }
+
+@media only screen and (max-width: 600px) {
+  .title-reduce {
+    font-size: 48px !important; } }
 
 @media only screen and (max-width: 992px) {
   .hide-on-med-and-down {
