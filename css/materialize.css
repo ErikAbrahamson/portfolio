@@ -2075,7 +2075,8 @@ ul {
   box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21); }
 
 .z-depth-5 {
-  box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22); }
+  box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+  overflow: hidden !important; }
 
 .hoverable:hover {
   transition: box-shadow .25s;
@@ -2195,15 +2196,19 @@ ul.staggered-list li {
 
 @media only screen and (max-width: 600px) {
   .nav-reduce {
-    font-size: 12px !important; } }
+    font-size: 10px !important; } }
 
 @media only screen and (max-width: 600px) {
   .h5-reduce {
     font-size: 20px !important; } }
 
 @media only screen and (max-width: 600px) {
+  .h2-reduce {
+    font-size: 26px !important; } }
+
+@media only screen and (max-width: 600px) {
   .title-reduce {
-    font-size: 48px !important; } }
+    font-size: 40px !important; } }
 
 @media only screen and (max-width: 992px) {
   .hide-on-med-and-down {

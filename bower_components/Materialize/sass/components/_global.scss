@@ -108,6 +108,7 @@ ul {
 }
 .z-depth-5{
   box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+  overflow: hidden !important;
 }
 
 .hoverable:hover {
@@ -279,7 +280,7 @@ ul.staggered-list li {
 }
 .nav-reduce {
   @media #{$small-and-down} {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 }
 .h5-reduce {
@@ -287,9 +288,14 @@ ul.staggered-list li {
     font-size: 20px !important;
   }
 }
+.h2-reduce {
+  @media #{$small-and-down} {
+    font-size: 26px !important;
+  }
+}
 .title-reduce {
   @media #{$small-and-down} {
-    font-size: 48px !important;
+    font-size: 40px !important;
   }
 }
 .hide-on-med-and-down {
