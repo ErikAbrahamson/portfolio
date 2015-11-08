@@ -20,6 +20,10 @@ $materialize-red: (
   "darken-4":   #8b1014,
 );
 
+$header-pink: (
+"base": #EE6E73
+);
+
 $red: (
   "lighten-5":  #FFEBEE,
   "lighten-4":  #FFCDD2,
@@ -409,4 +413,3 @@ $colors: (
   @warn "Unknown `#{name}` in $colors.";
   @return null;
 }
-

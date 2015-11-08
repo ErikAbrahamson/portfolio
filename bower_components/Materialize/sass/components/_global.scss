@@ -73,12 +73,21 @@ ul {
 .social-lg {
   font-size: 96px;
 }
+.raise {
+  z-index: 9999999 !important;
+}
 .noise-red {
   background-image: url(../images/textures/noise-blue.png);
 }
 .emboss {
   text-shadow: 0 -4px 4px #e53935, 0 4px 4px #e53935;
   color: #e53935;
+}
+
+.highlight-accent {
+  -webkit-text-stroke: 0.5px #F6B2B5;
+     -moz-text-stroke: 0.5px #F6B2B5;
+       -o-text-stroke: 0.5px #F6B2B5;
 }
 
 // classic clearfix
