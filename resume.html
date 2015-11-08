@@ -181,6 +181,32 @@ h4 span:first-child {
 	.col-sm-6:last-child {
 		margin-bottom: 0px;
 	}
+	* { overflow-x: hidden; }
+	#skills .item {
+		padding: 0 !important;
+		margin: 0 !important;
+		width: 33.1%;
+	}
+	#skills li {
+		font-size: 12px;
+		padding: 0;
+		margin-left: -20px
+	}
+	#skills li:before {
+		content: "\f052";
+		color: #EE6E73;
+		float: left;
+		font: 12px Octicons;
+		margin-top: 2px;
+		margin-left: -15px;
+	}
+	#print { display: none; }
+	#header h1 {
+		font-size: 30px;
+		-webkit-text-stroke: none;
+		text-shadow: none;
+
+	}
 	#content aside {
 		margin-bottom: 20px;
 		padding-right: 0;
@@ -211,14 +237,6 @@ h4 span:first-child {
 	#actions {
 		display: none;
 	}
-}
-@media print {
-
-	body, section { marign: 0;}
-	li { line-height: 1.0; }
-	#header { margin: 0; padding: 0 }
-	* { padding: 0;}
-
 }
 
 	</style>
