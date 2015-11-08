@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Erik Abrahamson",
+    "name": "ERIK ABRAHAMSON",
     "label": "Software Developer",
     "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAKhAAAAJGFkZmMzNjk3LWE4ZGUtNDRjMi05ZmU1LTc5ZWRhNmYyZmNmYg.jpg",
     "email": "e.a.abrahamson@gmail.com",
@@ -15,11 +15,6 @@
       "region": "Colorado"
     },
     "profiles": [{
-      "network": "Twitter",
-      "username": "erik_abrahamson",
-      "url": "http://twitter.com/erik_abrahamson"
-    },
-    {
       "network": "Github",
       "username": "ErikAbrahamson",
       "url": "https://github.com/ErikAbrahamson"
@@ -39,13 +34,15 @@
         "AngularJS",
         "jQuery",
         "Material",
-        "Sass"
+        "Sass",
+        "Handlebars.js"
     ]},
     {
       "name": "Back End & Data",
       "level": "Experienced",
       "keywords": [
         "JavaScript",
+        "Mongoose",
         "MongoDB",
         "NoSQL",
         "PostGreSQL",
@@ -67,20 +64,6 @@
         ]}
   ],
   "work": [{
-    "company": "Galvanize",
-    "position": "Student, gShool Full Stack",
-    "website": "http://www.galvanize.com/",
-    "startDate": "2015-06-01",
-    "endDate": "2015-12-15",
-    "summary": "Become JavaScript ninja and full stack devleoper",
-    "highlights": [
-      "Gain hands-on experience working with and building applications with RESTful APIs using the MEAN stack",
-      "Core focus on JavaScript, AngularJS and Node.js",
-      "Build comprehensive understanding of Object-Oriented Programming, Test-Driven Development, and Behavior-Driven Development",
-      "Design, develop and test numerous projects, both self-directed and team-directed"
-    ]
-    },
-    {
     "company": "PlaceWise Media",
     "position": "Account Coordinator",
     "website": "http://placewise.com/",
@@ -152,10 +135,10 @@
   "education": [{
     "institution": "Ithaca College",
     "area": "Philosophy",
-    "studyType": "Bachelor",
+    "studyType": "Bachelor of Arts",
     "startDate": "2008-08-28",
     "endDate": "2012-05-10",
-    "gpa": "3.82",
+    "gpa": "3.82"
   },
   {
     "institution": "Galvanize, gSchool",

@@ -1,0 +1,390 @@
+
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+
+	<title>Erik Abrahamson</title>
+
+	<style>
+	body {
+  background: #EEEEEE;
+  font: 12px "Times New Roman", Times, sans-serif;
+  line-height: 1.4;
+  margin: 40px 0;
+}
+em {
+  color: #999;
+}
+p {
+  line-height: 1.4;
+}
+ul {
+  margin-bottom: 0;
+}
+li {
+  margin-bottom: 2px;
+}
+a {
+  text-decoration: none;
+}
+
+#resume {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 80px 100px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px #aaa;
+  -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.coursesList {
+  width: 28%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.largeFont {
+  font-size: 20px;
+}
+
+.smallFont {
+  font-size: 12px;
+}
+
+.sectionBlock {
+  display: flex;
+  width: 100%;
+}
+
+.sectionName {
+  width: 18%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent {
+  width: 80%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent ul {
+  padding-left: 20px;
+  margin-top: 6px;
+  list-style-type: circle;
+}
+
+.sectionContent .title {
+  font-weight: bold;
+}
+
+.sectionContent .date {
+  float: right;
+}
+
+.sectionContent .separator {
+  height: 14px;
+}
+
+.sectionLine {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #CFCFCF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.summary {
+  margin-top: 6px;
+}
+
+.skillBlock {
+  margin-bottom: 4px;
+}
+
+.jobBlock {
+  page-break-inside: avoid;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 40em) {
+  body {
+    margin: 0;
+    font-size: 14px;
+  }
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0.5em 1em;
+    border: none;
+  }
+  .sectionContent {
+    width: 100%;
+  }
+  .sectionContent .date {
+    padding-right: 2em;
+  }
+  .sectionName {
+    width: auto;
+  }
+  .largeFont {
+    font-size: 20px;
+  }
+  .smallFont {
+    font-size: 14px;
+  }
+}
+
+@media print {
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0px 0px;
+    border: 0px;
+    background: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  a {
+    color: black;
+  }
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<div id='resume'>
+  <div id='nameBlock' class='largeFont'>
+    <span class='name'>
+      Erik Abrahamson,
+    </span>
+    <span class='label'>Software Developer</span>
+  </div>
+  <div id='basicsBlock' class='smallFont'>
+    <div class='contactBlock'>
+      <span class='email'>e.a.abrahamson@gmail.com</span>
+      <span class='divider'>|</span>
+      <span class='phone'>(914) 438-5692</span>
+        <span class='divider'>|</span>
+        <span class='address'>
+          Denver, Colorado, US
+        </span>
+    </div>
+      <div id='profilesBlock'>
+            <span class='url'>
+              <a href='https://github.com/ErikAbrahamson'>https://github.com/ErikAbrahamson</a>
+            </span>
+            <span class='divider'>|</span>
+            <span class='url'>
+              <a href='https://www.linkedin.com/in/erikabrahamson'>https://www.linkedin.com/in/erikabrahamson</a>
+            </span>
+
+      </div>
+  </div>
+  <div class='sectionLine'></div>
+
+
+	<div id='skills' class="sectionBlock">
+		<div class='sectionName'>
+			<span>SKILLS</span>
+		</div>
+		<div class='sectionContent'>
+			<div class='skillBlock'>
+				<span class='title'>Front End &amp; Design <em>(Experienced)</em>:</span>
+					<span>JavaScript</span>,
+					<span>CSS3</span>,
+					<span>AngularJS</span>,
+					<span>jQuery</span>,
+					<span>Material</span>,
+					<span>Sass</span>,
+					<span>Handlebars.js</span>
+			</div>
+			<div class='skillBlock'>
+				<span class='title'>Back End &amp; Data <em>(Experienced)</em>:</span>
+					<span>JavaScript</span>,
+					<span>Mongoose</span>,
+					<span>MongoDB</span>,
+					<span>NoSQL</span>,
+					<span>PostGreSQL</span>,
+					<span>Node.js</span>,
+					<span>Express</span>,
+					<span>Passport</span>
+			</div>
+			<div class='skillBlock'>
+				<span class='title'>Workflow &amp; Tools <em>(Experienced)</em>:</span>
+					<span>Travis CI</span>,
+					<span>Bower</span>,
+					<span>Gulp</span>,
+					<span>Jasmine</span>,
+					<span>Mocha &amp;&amp; Chai</span>,
+					<span>TDD &amp; BDD</span>,
+					<span>Agile project management</span>
+			</div>
+		</div>
+	</div>
+	<div class='sectionLine'></div>
+
+	<div id='education' class="sectionBlock">
+		<div class='sectionName'>
+			<span>EDUCATION</span>
+		</div>
+		<div class='sectionContent'>
+			<div class='educationBlock'>
+				<span class='title'>
+					Ithaca College
+				</span>
+				<span class='date'>
+					2008-08-28-2012-05-10
+				</span>
+				<div class=''>
+					Bachelor of Arts  - Philosophy, GPA: 3.82
+				</div>
+			</div>
+			<div class='separator'></div>
+			<div class='educationBlock'>
+				<span class='title'>
+					Galvanize, gSchool
+				</span>
+				<span class='date'>
+					2015-06-01-2015-12-15
+				</span>
+				<div class=''>
+					 - Software Engineering
+				</div>
+	      <ul class='highlights'>
+	        <li>Gain hands-on experience working with and building applications with RESTful APIs using the MEAN stack,Design, develop and test numerous projects, both self-directed and team-directed</li>
+	        <li>Core focus on JavaScript, AngularJS and Node.js</li>
+	        <li>Build comprehensive understanding of Object-Oriented Programming, Test-Driven Development, and Behavior-Driven Development</li>
+	      </ul>
+			</div>
+
+		</div>
+	</div>
+	<div class='sectionLine'></div>
+
+  <div id='workBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>EXPERIENCE</span>
+    </div>
+    <div class='sectionContent'>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          PlaceWise Media, Account Coordinator
+	        </span>
+	        <span class='date'>
+	          2014-05-01-2015-04-28
+	        </span>
+	      </div>
+	      <div><a href='http://placewise.com/'>http://placewise.com/</a></div>
+	      <ul class='highlights'>
+	        <li>Operations for digital media firm</li>
+	        <li>Worked within creative, operations, marketing, and development teams in an Agile project management setting to administer product life cycle</li>
+	        <li>Managed over fifty portfolio websites overseeing development tasks and various marketing initiatives</li>
+	        <li>Directed training webinars for proprietary CMS for clients and fulfilled client requests on a daily basis</li>
+	        <li>Developed and styled numerous websites with mobile-first, responsive designs</li>
+	        <li>Created monthly corporate roll-up analytic reports containing trends in comprehensive Google Analytics, social media, and email user database metrics</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          WorldLabel, Graphic Designer/Marketing Strategist
+	        </span>
+	        <span class='date'>
+	          2014-01-01-2014-04-28
+	        </span>
+	      </div>
+	      <div><a href=' http://www.worldlabel.com/'> http://www.worldlabel.com/</a></div>
+	      <ul class='highlights'>
+	        <li>Design assets for label printing company</li>
+	        <li>Digital content management for World Label division; LabelsOnTime.com</li>
+	        <li>Created and managed images for individual product pages to strengthen search engine optimization and UX design</li>
+	        <li>Edited and co-wrote press release, info, and technical specification page for website launch</li>
+	        <li>Created and maintained Google Merchant &amp; AdWords data feed for website</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Grand Street Psychology, Clinical Group Assistant Therapist
+	        </span>
+	        <span class='date'>
+	          2010-01-01-2014-03-28
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+	      <ul class='highlights'>
+	        <li>Full time assistant therapist for group therapy</li>
+	        <li>Assistant for ten individual group therapy sessions that specialize in adolescent and post-adolescent males</li>
+	        <li>Worked with variety of patients who are predominantly, but not limited to the autistic spectrum</li>
+	        <li>Responsible for leading discussions and exercises, and creating springboard discussion topics</li>
+	        <li>Promoted patient psychological well-being by employing play, talk, discussion, introspective, and behavioral therapies</li>
+	        <li>Assisted organizing annual workshops for audiences over seventy people, including Q&amp;A and discussion with audience</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          360W3 Westchester Web Design, Project Consultant
+	        </span>
+	        <span class='date'>
+	          2012-06-01-2012-12-28
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+	      <ul class='highlights'>
+	        <li>Project consulting and management</li>
+	        <li>Assisted in strategy and proposal development for small businesses seeking online marketing</li>
+	        <li>Liaison between creative team and clients</li>
+	        <li>Specialized in website design and development, search engine optimization, social media marketing, and brand development</li>
+	        <li>Employed tools such as Google Analytics, Wordpress, Facebook, Twitter, Salesforce, Microsoft Office, and the Adobe Creative Suite</li>
+	        <li>Assisted in wireframe development for proposed websites</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Westchester Industrial Complex, Information Analyst and Web Developer
+	        </span>
+	        <span class='date'>
+	          2011-06-01-2011-09-28
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+	      <ul class='highlights'>
+	        <li>Freelance IT consulting and wordpress development</li>
+	        <li>Online database management for industrial complex properties for rent</li>
+	        <li>Assisted with various Windows-based software and hardware related tasks, as well as some marketing and advertising tasks</li>
+	        <li>Developed and created website and content using Wordpress for new business venture</li>
+	      </ul>
+
+			</div>
+    </div>
+  </div>
+  <div class='sectionLine'></div>
+
+
+
+
+
+
+	</body>
+</html>

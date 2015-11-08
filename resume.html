@@ -1,30 +1,33 @@
 <!doctype html>
 <html>
 	<head>
-	
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-	
-	<title>Erik Abrahamson</title>
-	
+
+	<title>Erik Abrahamson :: Software Developer</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-	
+
 	<style type="text/css">
 	@import url(
-	https://fonts.googleapis.com/css?family=Lato:400,700
+	https://fonts.googleapis.com/css?family=Roboto:400,700,300,100
 );
+
 body {
 	background: #fff;
-	font-family: Lato, sans-serif;
+	font-family: Roboto, sans-serif;
 	margin: 0 0 80px;
 }
 a {
-	color: #2ecc71;
+	color: #EE6E73;
 }
 a:focus,
 a:hover {
-	color: #f1c40f;
+	color: #FF6E73;
 	text-decoration: none;
 }
 p {
@@ -49,11 +52,11 @@ li {
 }
 li:before {
 	content: "\f052";
+	color: #EE6E73;
 	float: left;
 	font: 13px Octicons;
 	margin-top: 6px;
 	margin-left: -20px;
-	opacity: .1;
 	position: absolute;
 }
 blockquote {
@@ -77,22 +80,41 @@ h4 span:first-child {
 	margin-bottom: 10px;
 }
 .col-sm-12 h4 {
-	margin-top: 12px; 
+	margin-top: 12px;
 }
 .col-sm-12 + .col-sm-12 {
 	margin-top: 30px;
 }
+#print {
+	left: 100px;
+	position: fixed !important;
+	padding-top: 250px !important;
+	font-size: 72px;
+	border: none !important;
+	padding: 0 !important;
+	background-color: rgba(255,255,255,0.0) !important;
+}
 #header {
-	background: #f4f6f6;
+	background: url(http://existo.us/images/textures/noise-blue.png);
 	padding: 50px 0;
 	margin-bottom: 30px;
 }
+#header h1 {
+	color: #FFF;
+	font-size: 52px;
+	font-weight: 300 !important;
+	-webkit-text-stroke: 1px #455a64;
+	color: white;
+	text-shadow: 5px 5px 0 #455a64, -1px -1px 0 #455a64, 1px -1px 0 #455a64, -1px 1px 0 #455a64, 1px 1px 0 #455a64;
+}
 #header h2 {
-	color: #95a5a6;
-	font-size: 24px;
+	color: #EEEEEE;
+	font-size: 22px;
+	font-weight: 100;
+	font-style: italic;
 }
 #content h3 {
-	color: #f1c40f;
+	color: #576677;
 	font-size: 26px;
 	margin-top: -4px;
 }
@@ -125,6 +147,10 @@ h4 span:first-child {
 }
 #publications .website a:before {
 	content: attr(href);
+}
+#skills .item {
+	float: left;
+	width: 32.99%;
 }
 
 @media (min-width: 480px) {
@@ -177,7 +203,7 @@ h4 span:first-child {
 	}
 	.strike-through span {
 		display: block;
-	}	
+	}
 	#header {
 		margin-bottom: 10px;
 		padding: 40px 0;
@@ -186,18 +212,27 @@ h4 span:first-child {
 		display: none;
 	}
 }
+@media print {
+
+	body, section { marign: 0;}
+	li { line-height: 1.0; }
+	#header { margin: 0; padding: 0 }
+	* { padding: 0;}
+
+}
 
 	</style>
-	
+
 	</head>
 	<body>
-	
+
 	<header id="header">
 		<div class="container">
+			<button id="print"><a href="resume-print.html"><i class="fa fa-print"></i></a></button>
 			<div class="row">
 				<div class="col-sm-9 col-sm-push-3">
 					<h1>
-						Erik Abrahamson
+						ERIK ABRAHAMSON
 					</h1>
 					<h2>
 						Software Developer
@@ -216,8 +251,7 @@ h4 span:first-child {
 			<div class="row">
 			<div class="col-sm-6">
 				<strong>Email</strong>
-				<div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="cda8e3ace3acafbfaca5aca0bea2a38daaa0aca4a1e3aea2a0">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">
-/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></div>
+				<div class="email">e.a.abrahamson@gmail.com</div>
 			</div>
 			<div class="col-sm-6">
 				<strong>Phone</strong>
@@ -232,30 +266,13 @@ h4 span:first-child {
 			</div>
 		</div>
 	</section>
-	<section id="about" class="row">
-		<aside class="col-sm-3">
-			<h3>About</h3>
-		</aside>
-		<div class="col-sm-9">
-			<p>I&#x27;ve been casually writing code for quite sometime. I recently enrolled a Full Stack immersive program at Galvanize to jumpstart my career and expertise in the world of software development. I&#x27;m a problem solver at heart; coming from a background in philosophy and clinical psychology. I am a technological optimist and believe that the web serves as a paramount tool for economic and social advancement.</p>
-		</div>
-	</section>
+
 	<section id="profiles" class="row">
 		<aside class="col-sm-3">
 			<h3>Profiles</h3>
 		</aside>
 		<div class="col-sm-9">
-			<div class="row">
-				<div class="col-sm-6">
-					<strong class="network">
-						Twitter
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="http://twitter.com/erik_abrahamson">erik_abrahamson</a>
-						</div>
-					</div>
-				</div>
+			<div class="item row">
 				<div class="col-sm-6">
 					<strong class="network">
 						Github
@@ -280,33 +297,107 @@ h4 span:first-child {
 		</div>
 	</section>
 
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="item col-sm-6">
+				<div class="name">
+					<h4>Front End &amp; Design</h4>
+				</div>
+				<ul class="keywords">
+					<li>JavaScript</li>
+					<li>CSS3</li>
+					<li>AngularJS</li>
+					<li>jQuery</li>
+					<li>Material</li>
+					<li>Sass</li>
+					<li>Handlebars.js</li>
+				</ul>
+			</div>
+			<div class="item col-sm-6">
+				<div class="name">
+					<h4>Back End &amp; Data</h4>
+				</div>
+				<ul class="keywords">
+					<li>JavaScript</li>
+					<li>Mongoose</li>
+					<li>MongoDB</li>
+					<li>NoSQL</li>
+					<li>PostGreSQL</li>
+					<li>Node.js</li>
+					<li>Express</li>
+					<li>Passport</li>
+				</ul>
+			</div>
+			<div class="item col-sm-6">
+				<div class="name">
+					<h4>Workflow &amp; Tools</h4>
+				</div>
+				<ul class="keywords">
+					<li>Travis CI</li>
+					<li>Bower</li>
+					<li>Gulp</li>
+					<li>Jasmine</li>
+					<li>Mocha &amp;&amp; Chai</li>
+					<li>TDD &amp; BDD</li>
+					<li>Agile project management</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Ithaca College</span>
+					<span class="date">
+						2008-08-28 — 2012-05-10
+					</span>
+				</h4>
+				<div class="area">
+					Philosophy
+				</div>
+				<div class="studyType">
+					Bachelor of Arts
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Galvanize, gSchool</span>
+					<span class="date">
+						2015-06-01 — 2015-12-15
+					</span>
+				</h4>
+				<div class="area">
+					Software Engineering
+				</div>
+				<h4>Curriculum</h4>
+				<ul class="courses">
+					<li>Gain hands-on experience working with and building applications with RESTful APIs using the MEAN stack</li>
+					<li>Core focus on JavaScript, AngularJS and Node.js</li>
+					<li>Build comprehensive understanding of Object-Oriented Programming, Test-Driven Development, and Behavior-Driven Development</li>
+					<li>Design, develop and test numerous projects, both self-directed and team-directed</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
 	<section id="work" class="row">
 		<aside class="col-sm-3">
 			<h3>Work</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Galvanize</span>
-					<span class="date">
-						2015-06-01 — 2015-12-15
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="http://www.galvanize.com/">http://www.galvanize.com/</a>
-				</div>
-				<div class="position">
-					Student, gShool Full Stack
-				</div>
-				<div class="summary">
-					<p>Become JavaScript ninja and full stack devleoper</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Learn programming fundamentals and the MEAN stack</li>
-				</ul>
-			</div>
 			<div class="col-sm-12">
 				<h4 class="strike-through">
 					<span>PlaceWise Media</span>
@@ -424,135 +515,11 @@ h4 span:first-child {
 		</div>
 	</section>
 
-	<section id="volunteer" class="row">
-		<aside class="col-sm-3">
-			<h3>Volunteer</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Rustic Pathways</span>
-					<span class="date">
-						2007-06-14 — 2007-06-22
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="http://rusticpathways.com/">http://rusticpathways.com/</a>
-				</div>
-				<div class="position">
-					Volunteer
-				</div>
-				<div class="summary">
-					<p>Aided in community development in various areas in Costa Rica, primarily doing manual labour jobs to improve school structures</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Soaring Society of America</span>
-					<span class="date">
-						2005-06-01 — 2012-07-21
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="http://www.ssa.org/">http://www.ssa.org/</a>
-				</div>
-				<div class="position">
-					Student Pilot and Volunteer
-				</div>
-				<div class="summary">
-					<p>Certified as Solo Student Pilot</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Received SSA &#x27;C&#x27; Badge</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="education" class="row">
-		<aside class="col-sm-3">
-			<h3>Education</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Ithaca College</span>
-					<span class="date">
-						2008-08-28 — 2012-05-10
-					</span>
-				</h4>
-				<div class="area">
-					Philosophy
-				</div>
-				<div class="studyType">
-					Bachelor
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Galvanize, gSchool</span>
-					<span class="date">
-						2015-06-01 — 2015-12-15
-					</span>
-				</h4>
-				<div class="area">
-					Software Engineering
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	
-	
-	<section id="skills" class="row">
-		<aside class="col-sm-3">
-			<h3>Skills</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Front End &amp; Design</h4>
-				</div>
-				<ul class="keywords">
-					<li>JavaScript</li>
-					<li>CSS3</li>
-					<li>AngularJS</li>
-					<li>jQuery</li>
-					<li>Material</li>
-					<li>Sass</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Back End &amp; Utils</h4>
-				</div>
-				<ul class="keywords">
-					<li>JavaScript</li>
-					<li>MongoDB</li>
-					<li>NoSQL</li>
-					<li>PostGreSQL</li>
-					<li>Node.js</li>
-					<li>Express</li>
-					<li>Passport</li>
-					<li>Travis CI</li>
-					<li>Bower</li>
-					<li>Gulp</li>
-					<li>Jasmine</li>
-					<li>Mocha &amp;&amp; Chai</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
 
 
-	
+
+
+
 	<section id="references" class="row">
 		<aside class="col-sm-3">
 			<h3>References</h3>
@@ -580,6 +547,6 @@ h4 span:first-child {
 	</section>
 
 	</div>
-	
+
 	</body>
 </html>
