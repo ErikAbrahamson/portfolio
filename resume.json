@@ -15,7 +15,6 @@
       "region": "Colorado"
     },
     "profiles": [{
-
       "network": "Twitter",
       "username": "erik_abrahamson",
       "url": "http://twitter.com/erik_abrahamson"
@@ -43,7 +42,7 @@
         "Sass"
     ]},
     {
-      "name": "Back End & Utils",
+      "name": "Back End & Data",
       "level": "Experienced",
       "keywords": [
         "JavaScript",
@@ -52,13 +51,20 @@
         "PostGreSQL",
         "Node.js",
         "Express",
-        "Passport",
-        "Travis CI",
-        "Bower",
-        "Gulp",
-        "Jasmine",
-        "Mocha && Chai"
-      ]}
+        "Passport"
+      ]},
+      {
+        "name": "Workflow & Tools",
+        "level": "Experienced",
+        "keywords": [
+          "Travis CI",
+          "Bower",
+          "Gulp",
+          "Jasmine",
+          "Mocha && Chai",
+          "TDD & BDD",
+          "Agile project management"
+        ]}
   ],
   "work": [{
     "company": "Galvanize",
@@ -143,38 +149,25 @@
       "Developed and created website and content using Wordpress for new business venture"
     ]
   }],
-  "volunteer": [{
-    "organization": "Rustic Pathways",
-    "position": "Volunteer",
-    "website": "http://rusticpathways.com/",
-    "startDate": "2007-06-14",
-    "endDate": "2007-06-22",
-    "summary": "Aided in community development in various areas in Costa Rica, primarily doing manual labour jobs to improve school structures"
-  },
-  {
-    "organization": "Soaring Society of America",
-    "position": "Student Pilot and Volunteer",
-    "website": "http://www.ssa.org/",
-    "startDate": "2005-06-01",
-    "endDate": "2012-07-21",
-    "summary": "Certified as Solo Student Pilot",
-    "highlights": [
-      "Received SSA 'C' Badge"
-    ]
-  }],
   "education": [{
     "institution": "Ithaca College",
     "area": "Philosophy",
     "studyType": "Bachelor",
     "startDate": "2008-08-28",
     "endDate": "2012-05-10",
-    "gpa": "3.82"
+    "gpa": "3.82",
   },
   {
     "institution": "Galvanize, gSchool",
     "area": "Software Engineering",
     "startDate": "2015-06-01",
-    "endDate": "2015-12-15"
+    "endDate": "2015-12-15",
+    "courses": [
+      "Gain hands-on experience working with and building applications with RESTful APIs using the MEAN stack",
+      "Core focus on JavaScript, AngularJS and Node.js",
+      "Build comprehensive understanding of Object-Oriented Programming, Test-Driven Development, and Behavior-Driven Development",
+      "Design, develop and test numerous projects, both self-directed and team-directed"
+    ]
   }],
   "references": [{
     "name": "Janir Thorndike",
