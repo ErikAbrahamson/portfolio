@@ -1,0 +1,15 @@
+{
+  "transport": "ftp",
+  "hostname": "ftp.existo.us",
+  "port": 21,
+  "username": "aphex350@existo.us",
+  "password": "sk334sk338",
+  "target": "/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "watch":[
+    "/**"
+  ]
+}
