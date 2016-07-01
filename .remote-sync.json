@@ -4,12 +4,18 @@
   "port": 21,
   "username": "aphex350@existo.us",
   "password": "sk334sk338",
-  "target": "/",
+  "target": "http://www.existo.us/",
   "ignore": [
     ".remote-sync.json",
     ".git/**"
   ],
   "watch":[
-    "/**"
+    "/bower_components",
+    "/css",
+    "/font",
+    "/images",
+    "/js",
+    "/node_modules",
+
   ]
 }
